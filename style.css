@@ -1,0 +1,170 @@
+body {
+    background-color: cornsilk;
+}
+
+.teks-berjalan {
+    color: blue;
+    display: inline-block;
+    white-space: nowrap;
+    animation: teks-berjalan 12s linear infinite;
+}
+
+@keyframes teks-berjalan {
+    from {
+        transform: translateX(300%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: magenta;
+}
+
+.paragraf-kedua {
+    color: purple;
+}
+
+.paragraf-ketiga {
+    color: palevioletred;
+}
+
+.paragraf-keempat {
+    color: green;
+}
+
+.paragraf-kelima {
+    color: teal;
+}
+
+.hobi-saya {
+    color: chartreuse;
+}
+
+.makanan-favorite {
+    color: tomato;
+}
+
+.paragraf-keenam {
+    color: rgb(164, 102, 22); 
+    
+}
+table {
+    margin: 50px auto;
+    border-spacing: 0px; /*untuk menghapus jarak spasi antar sel*/
+    border-collapse: collapse;
+}
+
+th {
+    background-color: teal;
+    color: white;
+    padding:10px; /*jarak antar elemen*/
+    border: 1px solid black
+}
+
+td {
+    padding: 10px; /*jarak teks yang ada di dalam sel supaya tidak terlalu rapat*/
+    border: 1px solid teal;
+}
+/*td:empty {
+    border:none;
+}*/
+
+.kontainer-tabel {
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.link-tabel {
+    text-decoration: none;
+    color:#0066cc;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba (0,0,0,0.2);
+}
+/* Tampilan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(135deg, #e0f75, #f5ffff);
+}
+
+/* Tabel lebih modern */
+table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    overflow:hidden
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Header */
+th {
+    background: linear-gradient(135deg, #006666, #00a99d);
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+}
+
+/*Isi tabel */
+td {
+    padding: 12px;
+    border: 1px solid #d6eeee;
+}
+
+/* Baris selang seking */
+tr:nth-child(even) td {
+    background-color: #f2fbfa;
+}
+
+/* Efek ketika mouse diarahkan */
+tr:hover td {
+    background-color: #d5f5f1;
+    transition: 0.2s;
+}
+
+/* Kolom JP */
+td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Tombol kembali */
+.link-tabel {
+    color: white;
+    background: linear-gradient(135deg, #006666, #008f83);
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.35s;
+}
+
+/* Hover tombol */
+.link-tabel:hover
+transform: translateY(-3px);
+box-shadow: 0 7px 15px rgba(0,0,0,0.25);
+}
+
+      
+
+
+
+
+
+
+
+    
